@@ -39,8 +39,8 @@ jobs:
 
             - name: install terraform
               uses: hashicorp/setup-terraform@v3
-                # with:
-                # terraform_version: "1.6.3"
+              with:
+                terraform_version: "1.6.3"
 
             - name: terraform init
               id: init
